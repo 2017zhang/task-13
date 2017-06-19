@@ -97,6 +97,7 @@ $right:right;
    }
  }
  .right-img{
+   position: relative;
    width:($widthfive - 35px);
    float:$right;
    margin-top:-($widthfive + 160px);

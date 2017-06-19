@@ -71,6 +71,7 @@
   font-size: 15px; }
 
 .right-img {
+  position: relative;
   width: 15px;
   float: right;
   margin-top: -210px;
