@@ -1,0 +1,175 @@
+
+$zero:0;
+$widthfive:50px;
+$font-size:19px;
+
+$widthhundred:100%;
+
+$background-color:#fff;
+
+$background-column:#5fc0cd;
+$border-color:#ccc;
+$font-color:#9a9a9a;
+$font-b:#f66f6f;
+$font000:#000;
+$fontb3:#b3b3b3;
+$main-color:#fbb435;
+$main-border:#cbcbcb;
+$nav-background:#29bde0;
+$nav-border:#74d4ed;
+$content-p:#ffc865;
+$content-right:#fbb435;
+
+$center:center;
+$left:left;
+$right:right;
+
+//----
+*{
+
+  margin:0 auto;
+}
+body{
+  margin:0;
+  padding:0;
+}
+header{
+  position:fixed;
+  width:$widthhundred;
+  z-index:10;
+}
+ .nav{
+   background-color:$nav-background;
+  height:60px;
+   border-bottom:1px solid $nav-border;
+ }
+ .nav{
+   img{
+     position:absolute;
+     transform:scale(.7,.7);
+   }
+ }
+ .nav-img-left{
+   left:3%;
+   top:10px;
+ }
+ .nav-img-right{
+   right:3%;
+   top:10px;
+
+ }
+ .nav{
+   p{
+     text-align:center;
+     padding:23px 0;
+     font-size:20px;
+     color:$background-color;
+
+   }
+ }
+ .content{
+   float:left;
+   margin-top:60px;
+   background-color:$nav-background;
+   padding:0 -120px;
+   width:100%;
+ }
+ .content-p{
+   margin:0 auto;
+   padding:15px 10%;
+   color:$content-p;
+   font-size:17px;
+   font-weight:bold;
+   text-indent:38px;
+   text-align:center;
+ }
+ .content{
+   img{
+     padding:10px 0;
+     max-width:80%;
+     display:block;
+   }
+ }
+ .content1{
+   margin:5px auto;
+   padding:0 10%;
+   color:$background-color;
+   font-size:($font-size - 5px);
+ }
+ .content1{
+   p{
+     padding:0;
+     margin:0;
+     font-size:($font-size - 5px);
+   }
+ }
+ .content1{
+   span{
+     margin:0 20px 0 0;
+   }
+ }
+ .p-middle{
+   width:30%;
+   margin-right:10%;
+ }
+ .p-right{
+   float:right;
+ }
+ .role{
+   text-align:left;
+ }
+ .content2{
+   float:left;
+   margin:0 auto;
+   font-size:($font-size - 4px);
+   background-color:$background-color;
+   width:100%
+ }
+ .content2-1{
+   color:$fontb3;
+   padding:5px 10%;
+   border-bottom:1px solid $border-color;
+ }
+ .content2-span1{
+   color:$font000;
+   font-size:($font-size - 2px);
+   margin:5px 0;
+   display:inline-block;
+ }
+ .content2-span2{
+   font-size:($font-size - 6px);
+   float:right;
+   margin:5px 18px;
+ }
+ .space{
+   height:70px;
+ }
+
+ footer{
+   position:fixed;
+   bottom:0;
+   background-color:rgba(153,233,240,.6);
+ }
+ .footer-text{
+   width:100%;
+   padding:15px 5%;
+ }
+ footer{
+   button{
+     width:40%;
+     height:40px;
+     border:none;
+     font-size:($font-size + 1px);
+     color:$background-color;
+     border-radius:8px;
+     outline:none;
+   }
+ }
+ .flooter-b1{
+  background-color:$font-b;
+   margin-right:4%;
+          }
+ .flooter-b2{
+   background-color:$content-right;
+   margin-right:6%;
+ }

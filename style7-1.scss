@@ -1,0 +1,125 @@
+$zero:0;
+$widthfive:50px;
+
+$widthhundred:100%;
+
+$background-color:#fff;
+$background-column:#5fc0cd;
+$border-color:#ccc;
+$font-color:#9a9a9a;
+$main-color:#fbb435;
+$main-border:#cbcbcb;
+
+$center:center;
+$left:left;
+$right:right;
+
+//----
+
+*{
+  margin:$zero;
+  padding:$zero;
+}
+ .header{
+   height:$widthfive+10px;
+   background-color:$background-column;
+ }
+ .header{
+   img{
+     margin-top:($widthfive/2 - 1px);
+     margin-left:($widthhundred - 95%);
+     width:$widthfive/2;
+   }
+ }
+ .herder-right{
+   float:right;
+   margin-right:5%;
+ }
+ .nav{
+   border:1px solid $border-color;
+   margin:$zero auto;
+   width:($widthhundred - 10%);
+   height:($widthfive - 5px);
+   margin-top:($widthfive - 30px);
+   font-size:($widthfive - 30px);
+   color:$font-color;
+   letter-spacing:($widthfive - 48px);
+   text-align:$center;
+ }
+ .nav{
+   p{
+     margin-top:($widthfive - 40px);
+   }
+ }
+ .nav{
+   img{
+     float:$right;
+     margin-right:($widthhundred - 98%);
+     margin-top:($widthfive - 30px);
+     width:($widthfive - 40px);
+   }
+ }
+ .main{
+   width:($widthhundred - 10%);
+   margin:$zero auto;
+   background:$background-color;
+   border:1px solid $main-border;
+   position:relative;
+   margin-top:($widthfive - 35px);
+ }
+ .main-title{
+   height:($widthfive - 5px);
+   margin-bottom:$zero;
+   text-align:$center;
+   line-height:($widthfive - 5px);
+   font-size:($widthfive - 30px);
+   color:$main-color;
+   border-bottom:1px solid $main-color;
+ }
+ .content{
+   text-align:$center;
+   position:relative;
+ }
+ .content-btn{
+   outline:none !important;
+   height:$widthfive;
+   width:($widthhundred - 14%);
+   background-color:$background-column;
+   margin:($widthfive - 30px) auto;
+   border-radius:$zero;
+   color:$background-color;
+   font-size:($widthfive - 30px);
+   border:none;
+ }
+ .content{
+   p{
+     font-size:($widthfive - 35px);
+   }
+ }
+ .right-img{
+   width:($widthfive - 35px);
+   float:$right;
+   margin-top:-($widthfive + 160px);
+   margin-right:1%;
+ }
+ .footer{
+   text-align:$center;
+ }
+ .footer{
+   a{
+     display:inline-block;
+     width:($widthfive - 40px);
+     height:($widthfive - 40px);
+     background:$border-color;
+     border-radius:$widthhundred/2;
+     margin-top:($widthfive - 30px);
+   }
+ }
+ .footer{
+   >a:hover{
+     background:$background-column;
+   }
+ }
+.conter-btn:hover{
+  color:$font-color;
+}

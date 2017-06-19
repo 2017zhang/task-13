@@ -1,0 +1,210 @@
+$zero:0;
+$widthfive:50px;
+
+$widthhundred:100%;
+
+$hederbackground:#29bde0;
+$columbackground:#b9e9f5;
+$background-color:#fff;
+$background-column:#5fc0cd;
+$border-color:#ccc;
+$font-color:#9a9a9a;
+$main-color:#fbd435;
+$main-border:#cbcbcb;
+$p-color:#565656;
+$p-background:#f5c97b;
+$p-down-background:#83b09a;
+$h-color:#000;
+
+$center:center;
+$left:left;
+$right:right;
+
+//----
+* {
+
+  padding:$zero;
+  margin:$zero auto;
+}
+ .header{
+   position:fixed;
+   text-align:$center;
+   height:($widthfive + 20px);
+   width:$widthhundred;
+   background-color:$hederbackground;
+   line-height:($widthfive + 20px);
+   font-size:($widthfive - 30px);
+   color:$background-color;
+   z-index:10;
+ }
+ .header{
+   & a,
+
+   &>span{
+     position:absolute;
+     display:inline-block;
+     background-size:100%;
+     top:31%;
+   }
+ }
+ .header-left{
+   width:25px;
+   height:25px;
+   background-image:url(images/12.png);
+   margin-left:-42%;
+ }
+ .header-right{
+   width:($widthfive/2);
+   height:($widthfive/2);
+   background-image:url(images/11.png);
+   margin-left:($widthhundred - 65%);
+ }
+ .column{
+   height:($widthfive + 10px);
+   background-color:$columbackground;
+   line-height:($widthfive + 10px);
+   font-size:($widthfive - 30px);
+   vertical-align:middle;
+ }
+ .column{
+   p{
+     float:$left;
+     margin-left:($widthhundred - 96%);
+     display:inline-block;
+     margin-bottom:$zero;
+     color:$h-color;
+
+   }
+ }
+ .column{
+   >div{
+     >span{
+       float:$right;
+       display:inline-block;
+       width:($widthfive - 20px);
+       height:($widthfive - 20px);
+       background-image:url(images/14.png);
+       background-size:($widthfive - 20px);
+       margin-top:($widthfive - 35px);
+       margin-right:12%;
+     }
+   }
+ }
+ .column-p{
+   color:$background-color;
+   font-size:($widthfive - 32px);
+   height:($widthfive + 10px);
+   line-height:($widthfive + 10px);
+   position:relative;
+   background-color:$hederbackground;
+   text-align:left;
+   padding:$zero ($widthhundred - 94%);
+ }
+ .colum-p-span{
+   position:absolute;
+   width:($widthfive - 35px);
+   height:($widthfive - 37px);
+   background-image:url(images/13.png);
+   background-size:($widthfive - 35px);
+   margin-top:-($widthfive + 10px);
+ }
+ footer{
+   vertical-align:middle;
+   position:fixed;
+   bottom:0;
+   left:0;
+   right:0;
+   height:($widthfive + 20px);
+   line-height:($widthfive + 20px);
+   text-align:center;
+   background:$hederbackground;
+ }
+ .footer-btn{
+   color:$background-color;
+   background-color:$main-color;
+   border:none;
+   width:($widthhundred - 20%);
+   height:($widthfive - 10px);
+   font-size:$widthfive/2;
+ }
+ .footer-btn:hover{
+   color:$p-color;
+ }
+
+ .main{
+   float:left;
+   padding:($widthfive + 140px) .7% ($widthfive + 40px) 0;
+   background-color:$hederbackground;
+   text-align:center;
+   //margin-left:.8%;
+ }
+ .main-box{
+   float:$left;
+   width:($widthhundred - 70%);
+   display:inline-block;
+   vertical-align:middle;
+   padding:$zero .5%;
+   margin:$zero 1%;
+ }
+ .main-box:hover{
+   .sprite{
+     visibility:visible;
+   }
+
+ }
+ .main-box-1:hover{
+   .sprite{
+     visibility:visible;
+   }
+ }
+
+ .p-wrap{
+   border:2px solid $background-color;
+   background:$p-background;
+   display:inline-block;
+   width:$widthhundred/2;
+   min-width:95px;
+   position:relative;
+ }
+ .p-up{
+   margin:$widthhundred/4 auto;
+   font-size:($widthfive - 30px);
+   white-space:nowrap;
+   background-color:$p-background;
+   color:$p-color
+ }
+ .p-down{
+   background:$p-down-background;
+   color:$background-color;
+   margin:$zero;
+ }
+ .sprite{
+   display:flex;
+   min-width:$widthfive*2;
+   height:($widthfive - 30px);
+   width:33.33%;
+   visibility:hidden;
+   margin:$widthhundred/10 auto;
+ }
+ .sprite{
+   span{
+     display:inline-block;
+     background-color:$background-color;
+     margin:$zero auto;
+     background-image:url(images/img.png);
+     background-repeat:no-repeat;
+     background-size:($widthfive - 30px) auto;
+     width:($widthfive - 30px);
+     height:($widthfive - 30px);
+   }
+ }
+ .sprite1 {
+   background-position:0 -40px;
+ }
+ .sprite2 {
+   background-position:0 -60px;
+}
+
+ .sprite3 {
+   background-position:0 -20px;
+}
