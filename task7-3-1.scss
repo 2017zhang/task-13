@@ -2,6 +2,7 @@
 $zero:0;
 $widthfive:50px;
 $font-size:19px;
+$p-size:17px;
 
 $widthhundred:100%;
 
@@ -94,13 +95,13 @@ header{
    margin:5px auto;
    padding:0 10%;
    color:$background-color;
-   font-size:($font-size - 5px);
+   font-size:$p-size;
  }
  .content1{
    p{
      padding:0;
      margin:0;
-     font-size:($font-size - 5px);
+     font-size:$p-size;
    }
  }
  .content1{
